@@ -1,4 +1,4 @@
-## DouBao 豆包 (Just For Simple)
+## DouBao 豆包 (Just For Easy)
 
 #### Chrome extension for developer
 
