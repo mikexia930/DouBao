@@ -10,7 +10,7 @@
 		"48": "static/images/doubao.png"
 	},
 	"permissions": [
-		"<all_urls>"
+		"https://beta3.tapdb.com/"
 	],
 	"background": {
 		"scripts": []
