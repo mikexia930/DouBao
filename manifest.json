@@ -1,24 +1,21 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "DouBao",
 	"version": "1.0.0",
-	"description": "Developer's Tool Packages, Just for easy",
+	"description": "Developer's Tool Packages, Just for simple",
 	"icons":  {
 		"16": "static/images/doubao.png",
 		"24": "static/images/doubao.png",
 		"32": "static/images/doubao.png",
 		"48": "static/images/doubao.png"
 	},
-	"permissions": [
-		"https://beta3.tapdb.com/"
-	],
-	"background": {
-		"scripts": []
-	},
-	"browser_action": {
+	"host_permissions": ["<all_urls>"],
+	"action": {
 		"default_popup": "./popup/popup.html",
 		"default_title": ""
 	},
-	"content_scripts": [],
-	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+	"permissions": [],
+	"content_security_policy": {
+		"extension_pages": "script-src 'self'; object-src 'self';"
+	}
 }

@@ -1,3 +1,3 @@
 window.onload = () => {
-  window.open(chrome.extension.getURL('main/index.html'))
+  window.open(chrome.runtime.getURL('main/index.html'))
 };
