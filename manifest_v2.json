@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "DouBao",
+	"version": "1.0.0",
+	"description": "Developer's Tool Packages, Just for easy",
+	"icons":  {
+		"16": "static/images/doubao.png",
+		"24": "static/images/doubao.png",
+		"32": "static/images/doubao.png",
+		"48": "static/images/doubao.png"
+	},
+	"permissions": [
+		"<all_urls>"
+	],
+	"background": {
+		"scripts": []
+	},
+	"browser_action": {
+		"default_popup": "./popup/popup.html",
+		"default_title": ""
+	},
+	"content_scripts": [],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
+
