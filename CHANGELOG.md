@@ -12,3 +12,7 @@
 **Feature**
 * Copy Request Result
 * Copy JSON Format Result
+
+### v1.1.1
+**Fixed Bug**
+* When Json Value is 'null', Json Beauty is empty.
