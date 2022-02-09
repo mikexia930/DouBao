@@ -16,3 +16,7 @@
 ### v1.1.1
 **Fixed Bug**
 * When Json Value is 'null', Json Beauty is empty.
+
+### v1.1.2
+**Fixed Bug**
+* Request formData params error.
