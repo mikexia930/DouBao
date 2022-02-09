@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "DouBao",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Developer's Tool Packages, Just for simple",
 	"icons":  {
 		"16": "static/images/doubao.png",
