@@ -20,3 +20,11 @@
 ### v1.1.2
 **Fixed Bug**
 * Request formData params error.
+
+### v1.1.3
+**Optimization**
+* Show current version.
+* Show Request Method in history lists.
+
+**Fixed Bug**
+* Response status out of 2**, show response data.
