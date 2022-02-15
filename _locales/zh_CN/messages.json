@@ -2,5 +2,9 @@
   "extName": {
     "message": "豆包",
     "description": "豆包-开发者的工具包"
+  },
+  "extDesc": {
+    "message": "开发常用工具包，接口调试，JSON格式，文本差异比较等。Just for simple！",
+    "description": "开发常用工具包，接口调试，JSON格式，文本差异比较等。Just for simple！"
   }
 }
